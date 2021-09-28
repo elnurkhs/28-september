@@ -1,0 +1,198 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.row{
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-md12 {width: 100%;}
+
+.logo .show{
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0mm;
+}
+.logo .kes{
+    letter-spacing: 0mm;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.navlinks ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.navlinks .bold{
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.navlinks li{
+    font-weight: 450;
+    text-transform: capitalize;
+}
+#freelance{
+    background-image: url(./photos/sea-clouds-nature-dark-wallpaper.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+.cover{
+    text-align: center;
+    padding-top: 400px;
+}
+.cover .h2 h2{
+    padding-top: 30px;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.cover .h1 h1{
+    padding-top: 30px;
+    font-size: 60px;
+    text-transform: capitalize;
+     color: #fff;
+}
+.cover .button{
+    padding-top: 40px;
+}
+.cover button{
+    padding: 10px 30px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 15px;
+}
+#about-me{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#about-me .text{
+    text-align: center;
+    font-size: 30px;
+}
+#about-me .about{
+    text-transform: capitalize;
+    font-weight: 450;
+}
+#about-me .me{
+    text-transform: capitalize;
+    font-weight: 900;
+}
+#about-me p{
+    padding-top: 20px;
+    font-size: 15px
+}
+#about-me .bio{
+    padding-top: 250px;
+}
+#about-me .bio .h1 {
+    text-align: left;
+}
+#about-me .bio .h1 .aquick{
+    font-weight: 450;
+    text-transform: capitalize;
+}
+#about-me .bio .h1 .bio{
+    font-weight: 900;
+    text-transform: capitalize;
+}
+#about-me .bio .p {
+    text-align: left;
+    width: 70%;
+}
+#about-me .bio .button{
+    text-align: left;
+    padding-top: 60px;
+}
+#about-me .bio .button button{
+    padding: 10px 30px;
+    color: whitesmoke;
+    background-color: black;
+    border: none;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+#what-i-do{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+#what-i-do .text{
+    font-size: 30px;
+}
+#what-i-do .what{
+    text-transform: capitalize;
+    font-weight: 450;
+}
+#what-i-do .do{
+    text-transform: capitalize;
+    font-weight: 900;
+}
+#what-i-do p{
+    padding-top: 20px;
+    font-size: 15px
+}
+#what-i-do .pad-for-row{
+    padding-top: 50px;
+}
+#what-i-do .pad-for-col{
+    padding-top: 200px;
+    padding-left: 40px;
+}
+#what-i-do .icon{
+    color: gray;
+    font-size: 35px;
+}
+#what-i-do .h1{
+    text-transform: capitalize;
+    font-size: 15px;
+    padding-top: 15px;
+}
+#what-i-do .p{
+    width: 350px;
+    text-align: center;
+    font-weight: 300;
+}
+#what-i-do .pad-for-row{
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+#my-works .text{
+    text-align: center;
+    font-size: 30px;
+}
+#my-works .my{
+    text-transform: capitalize;
+    font-weight: 450;
+}
+#my-works .works{
+    text-transform: capitalize;
+    font-weight: 900;
+}
+#my-works p{
+    padding-top: 20px;
+    font-size: 15px
+}
